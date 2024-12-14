@@ -1,5 +1,6 @@
 import { FaBuilding, FaRegStar, FaHome, FaColumns, FaIndustry } from 'react-icons/fa';
 import aboutImage from "../../../../public/images/hero.jpg"
+import ServiceSection from './Service';
 
 const About = () => {
   return (
@@ -74,6 +75,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    <ServiceSection />
     </>
     
   );

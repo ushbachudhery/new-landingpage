@@ -8,7 +8,7 @@ const Popup = () => {
     // Show popup after 3 seconds
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 2000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);

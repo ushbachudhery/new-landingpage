@@ -2,6 +2,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 
 const Hero = () => {
   return (
+    <>
     <section 
       className="relative w-full h-screen bg-cover bg-center" 
       style={{ backgroundImage: "url('/images/hero.jpg')" }} // Fixed path
@@ -18,13 +19,15 @@ const Hero = () => {
         </p>
         <a
           href="#"
-          className="inline-flex items-center justify-center space-x-3 px-6 py-3 border-2 border-white bg-custom-purple text-white font-semibold rounded-lg shadow-lg transform transition duration-300 ease-in-out hover:scale-105 hover:bg-purple-700"
+          className="inline-flex items-center justify-center space-x-3 px-6 py-3 border-2 border-white  text-white font-semibold rounded-lg shadow-lg transform transition duration-300 ease-in-out hover:scale-105 hover:bg-primary"
         >
           <span>Request A Call Back</span>
           <FaPhoneAlt className="text-lg" />
         </a>
       </div>
     </section>
+    
+    </>
   );
 };
 
